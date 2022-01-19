@@ -5,9 +5,14 @@
     padding: 0;
 }
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 body {
-    width: 80%;
+    width: 70%;
     margin: 20px auto;
 }
 
@@ -28,23 +33,34 @@ header {
 
 .second-container {
     background-color: rgb(65, 138, 227);
-    height: 700px;
+    height: 740px;
+    margin-bottom: 20px;
+}
+
+.bg-lightblue {
+    background-color: lightblue;
 }
 
 .top-section {
-
+    height: 100px;
+    margin-bottom: 20px;
 }
 
 .aside-left {
+    margin-right: 20px;
+}
 
+.aside {
+    height: 600px;
+    width: 15%;
+    float: left;
 }
 
 .center-content {
-
-}
-
-.aside-right {
-
+    height: 600px;
+    width: calc(70% - 40px);
+    float: left;
+    margin-right: 20px;
 }
 
 
