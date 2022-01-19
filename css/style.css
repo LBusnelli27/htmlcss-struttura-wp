@@ -4,3 +4,50 @@
     margin: 0;
     padding: 0;
 }
+
+
+body {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.margin-bottom {
+    margin-bottom: 30px;
+}
+
+header {
+    background-color: plum;
+    height: 180px;
+}
+
+
+.first-container {
+    background-color: rgb(211, 228, 143);
+    height: 600px;
+}
+
+.second-container {
+    background-color: rgb(65, 138, 227);
+    height: 700px;
+}
+
+.top-section {
+
+}
+
+.aside-left {
+
+}
+
+.center-content {
+
+}
+
+.aside-right {
+
+}
+
+
+footer {
+    
+}
