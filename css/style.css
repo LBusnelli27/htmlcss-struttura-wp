@@ -31,7 +31,7 @@ header {
 
 
 /* Primo container */
-.first-container {
+.jumbotron {
     background-color: rgb(211, 228, 143);
     height: 600px;
 }
