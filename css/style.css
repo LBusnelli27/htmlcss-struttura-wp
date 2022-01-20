@@ -29,11 +29,14 @@ header {
     height: 180px;
 }
 
+.height-content {
+    height: 600px;
+}
+
 
 /* Primo container */
 .jumbotron {
     background-color: rgb(211, 228, 143);
-    height: 600px;
 }
 
 /* Secondo container dove ho creato altre 3 div per dividere lo spazio al suo interno */
@@ -55,7 +58,6 @@ header {
 
 /* Singola classe per le 2 a-side */
 .aside {
-    height: 600px;
     width: 15%;
     float: left;
 }
@@ -66,7 +68,6 @@ header {
 
 /* Contenuto centrale, con il calc per non distruggere tutto :) */
 .center-content {
-    height: 600px;
     width: calc(70% - 40px);
     float: left;
     margin-right: 20px;
