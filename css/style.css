@@ -29,12 +29,13 @@ header {
     height: 180px;
 }
 
+
+/* Usato per eliminare la ridondaza delle height nei content */
 .height-content {
     height: 600px;
 }
 
-
-/* Primo container */
+/* Primo container (jumbotron) */
 .jumbotron {
     background-color: rgb(211, 228, 143);
 }
@@ -51,6 +52,7 @@ header {
     background-color: lightblue;
 }
 
+/* Header dentro la seconda section */
 .top-section {
     height: 100px;
     margin-bottom: 20px;
@@ -62,6 +64,7 @@ header {
     float: left;
 }
 
+/* Specifico per aside a sx */
 .aside-left {
     margin-right: 20px;
 }
